@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px) {
+
+}
+
+
+@media only screen and (min-width: 1515px) {
+    
+    .left-menu {
+        padding: 18px 80px;
+    }
+    .card-block {
+        height: 195px;
+    }
+}
+
+@media only screen and (max-width: 1285px) {
+
+  .left-menu {
+        padding: 18px 25px;
+    }
+.chief-army-head p {
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 5px;
+}
+}
+@media only screen and (max-width: 1445px) {
+    .main-home-block{
+        flex: 0 0 70% !important;
+        max-width: 70% !important;
+    }
+    .right-home-block{
+        flex: 0 0 30% !important;
+        max-width: 30% !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) { 
+  .container {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}

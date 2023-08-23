@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="robots" content="noindex,nofollow">
+      <meta name="description" content="Central Maintenance Transport Depot (CMTD)">
+      <meta name="author" content="">
+      <title>Batayon</title>
+      <!-- Bootstrap core CSS -->
+      <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="../assets/owlcarousel/owl.carousel.min.css">
+      <link rel="stylesheet" href="../assets/owlcarousel/owl.theme.default.min.css">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel='stylesheet' href='../assets/css/animate.css'>
+      <link rel='stylesheet' href='../assets/css/jquery.fancybox.min.css'>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <link href="../assets/css/style.css" rel="stylesheet">
+      <link href="../assets/css/responsive.css" rel="stylesheet">
+      <style>
+        svg g:first-child rect:nth-of-type(2) {
+          fill-opacity: 0 !important;
+        }
+      </style>
+      <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Value','2'],
+          ['Total Unit', 1000, 500],
+          ['FI Planned', 1170, 500],
+          ['FI Completed', 660, 500],
+          ['Yet to Complete', 1030, 500],
+          ['Exampted', 1030, 500]
+        ]);
+
+        var options = {
+          chart: {
+            // title: 'Company Performance',
+            // subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+          },
+          is3D: true,
+          bars: 'horizontal',
+          colors: ['#405e2d', '#3e6326'],
+          backgroundColor: 'transparent',
+          titleTextStyle: {
+            color: 'white'
+          },
+          subtitleTextStyle: {
+            color: 'white'
+          },
+          hAxis: {
+            textStyle: {
+              color: 'white'
+            }
+          },
+          vAxis: {
+            textStyle: {
+              color: 'white'
+            }
+          },
+          legend: {
+            position: 'none' // Hide the legend
+          }
+          
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+
+   </head>
+   <body class="scroll">
+      <div class="full-container">
+         <div class="">
+            <div class="header wow fadeInDown">
+               <div class="container">
+                  <div class="row flow-menu">
+                    <div class="col-md-12 head-section">
+                      <div class="top-banner">
+                        <a href="#"><img src="../assets/images/army_logo.png"></a>
+                        <div class="brand">
+                          <h1>ARMY FI MGT SOFTWARE</h1> 
+                          <h2>In War and Peace, We are Everywhere for the Country</h2> 
+                        </div>
+                        <div class="banner-image">
+                          <img src="../assets/images/color2.jpg">
+                        </div>
+                      </div>
+                    </div>
+                     <nav class="navbar navbar-expand-lg navbar-light top-menu" >
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                           <ul class="nav navbar-nav w-100">
+                              <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                              <li class=""><a href="#">Gallery</a></li>
+                              <li class=""><a href="#">Forecast</a></li>
+                              <li class=""><a href="#">SBAO on FI</a></li>
+                              <li class=""><a href="#">Archive</a></li>
+                              <li class=""><a href="#">User Guide</a></li>
+                              <li class="nav-item dropdown">
+                                <a href="#">Admin Log in</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Profile</a>
+                                  <a class="dropdown-item" href="#">Logout</a>
+                                </div>
+                              </li>
+                              
+                           </ul>
+                           <!-- <ul class="nav navbar-nav navbar-right">
+                              
+                              <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul> -->
+                        </div>
+                     </nav>
+                     <marquee behavior="scroll" direction="left">
+                        <div class="text-white marquee">
+                          This is a scrolling marquee text using Bootstrap!  |  This is a scrolling marquee text using Bootstrap!  |  This is a scrolling marquee text using Bootstrap!  |  This is a scrolling marquee text using Bootstrap!  |  This is a scrolling marquee text using Bootstrap!
+                        </div>
+                      </marquee>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <!-- <div class="headfix"></div> -->
+               <div class="row">
+                  <div class="col-md-2">
+                     <div class=" wow fadeIn">
+                        <div class="menu-block">
+                           
+                           <ul>
+                              <li><a class="pushable" href="#"><span class="front">FI SCHEDULE</span></a></li>
+                              <li><a class="pushable" href="#"><span class="front">ASG INSPECTION TEAM</span></a></li>
+                              <li><a class="pushable" href="#"><span class="front">FI FORMATS</span></a></li>
+                              <li><a class="pushable" href="#"><span class="front">FI REPORT</span></a></li>
+                              <li><a class="pushable" href="#"><span class="front">QUARIES</span></a></li>
+
+                              <li><a class="pushable" href="#"><span class="front">Extra 1</span></a></li>
+                              <li><a class="pushable" href="#"><span class="front">Extra 2</span></a></li>
+                              <li><a class="pushable" href="#"><span class="front">Extra 3</span></a></li>
+
+                           </ul>
+                        </div>
+                        
+                        
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                    <form>
+                      <input type="text" name="search" class="form-control homesearch text-center" placeholder="🔍 Search">
+                    </form>
+                     <div class="owl-carousel slider2 wow fadeInUp">
+                        <a class="s2link" href="#">
+                          <img src="../assets/images/slider/1.jpg">
+                        </a>
+                        <a class="s2link" href="#">
+                          <img src="../assets/images/slider/2.jpg">
+                        </a>
+                        <a class="s2link" href="#">
+                          <img src="../assets/images/slider/3.jpg">
+                        </a>
+                        <a class="s2link" href="#">
+                          <img src="../assets/images/slider/4.jpg">
+                        </a>
+
+                     </div>
+                     
+                  </div>
+                  <div class="col-md-4 wow fadeIn mt-4">
+                     <div class="wow fadeInUp p-0 mb-15 chart-block" style="margin-bottom: 15px;">
+                        <h2 class="short-div-head text-center">FI CALENDER-2023</h2>
+                        <img class="m-0 w-100" src="../assets/images/calendar.png">
+                     </div>
+                     <div class="wow fadeInUp p-0 chart-block">
+                        <h2 class="short-div-head  text-center">FI INFO: 2023- 19 INF DIV</h2>
+                        <div id="barchart_material" style=" height: 220px;"></div>
+                     </div>
+                     
+                     
+                  </div>
+               </div>
+            </div>
+            <footer>
+               <div class="footer">
+                  <!-- <div class="container">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="army">
+                              <img src="../assets/images/army_logo.png">
+                              <h1>Bangladesh Army</h1>
+                           </div>
+                        </div>
+                        <div class="col-md-8">
+                           <div class="foo-right">
+                              <img class="pull-right" src="../assets/images/footer.png">
+                           </div>
+                        </div>
+                     </div>
+                  </div> -->
+                  <div class="copyright">
+                     <p>An ARTDOC Effort, Powred by AHQ IT Dte
+</p>
+                  </div>
+               </div>
+            </footer>
+         </div>
+      </div>
+      </div>
+      <!-- Bootstrap core JavaScript -->
+      <script src='../assets/js/jquery-2.2.4.min.js'></script>
+      <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="../assets/owlcarousel/owl.carousel.min.js"></script>
+      <script src="../assets/js/jquery.mousewheel.js"></script>
+      <script src='../assets/js/jquery.tinycarousel.js'></script>
+      <script src='../assets/js/jquery.fancybox.min.js'></script>
+      <script src="../assets/js/main.js"></script>
+      <script src="../assets/js/wow.min.js"></script>
+      <script>
+         new WOW().init();
+         $(function () {
+           $('[data-toggle="tooltip"]').tooltip()
+         })
+      </script>
+   </body>
+</html>
